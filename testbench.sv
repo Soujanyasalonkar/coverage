@@ -1,6 +1,7 @@
 `include "interface.sv"
 `include "tb_pkg.sv"
-module top;
+`include "sr.v"
+module testbench;
   import uvm_pkg::*;
   import tb_pkg::*;
   
